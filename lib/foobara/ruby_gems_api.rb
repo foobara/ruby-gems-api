@@ -1,4 +1,4 @@
 require "foobara/all"
+require "foobara/http_api_command"
 
-require_relative "../../src/foobara/http_api_get_command"
 Foobara::Util.require_directory "#{__dir__}/../../src"

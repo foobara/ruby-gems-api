@@ -3,6 +3,7 @@ PATH
   specs:
     foobara-ruby-gems-api (0.0.1)
       foobara
+      foobara-http-api-command
 
 GEM
   remote: https://rubygems.org/
@@ -77,6 +78,8 @@ GEM
       foobara
       foobara-files-generator
     foobara-files-generator (0.0.3)
+      foobara
+    foobara-http-api-command (0.0.1)
       foobara
     foobara-organization-generator (0.0.1)
       foobara
