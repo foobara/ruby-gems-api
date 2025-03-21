@@ -7,7 +7,7 @@ module Foobara
 
       result [User]
 
-      include HttpApiGetCommand
+      include HttpApiCommand
 
       url { "https://rubygems.org/api/v1/gems/#{gem_name}/owners.json" }
     end

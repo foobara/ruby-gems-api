@@ -10,7 +10,7 @@ module Foobara
 
       result [Gem]
 
-      include HttpApiGetCommand
+      include HttpApiCommand
 
       url "https://rubygems.org/api/v1/search.json"
 

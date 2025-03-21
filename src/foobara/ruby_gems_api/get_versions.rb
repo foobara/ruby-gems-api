@@ -7,7 +7,7 @@ module Foobara
 
       result [Version]
 
-      include HttpApiGetCommand
+      include HttpApiCommand
 
       url { "https://rubygems.org/api/v1/versions/#{gem_name}.json" }
     end
