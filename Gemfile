@@ -5,7 +5,7 @@ ruby Foobara::RubyGemsApi::MINIMUM_RUBY_VERSION
 
 gemspec
 
-gem "foobara-dotenv-loader"
+gem "foobara-dotenv-loader", "< 2.0.0"
 
 gem "rake"
 
@@ -26,7 +26,7 @@ group :development, :test do
 end
 
 group :test do
-  gem "foobara-spec-helpers"
+  gem "foobara-spec-helpers", "< 2.0.0"
   gem "rspec"
   gem "rspec-its"
   gem "ruby-prof"
