@@ -10,7 +10,7 @@ gem "foobara-dotenv-loader", "< 2.0.0"
 gem "rake"
 
 group :development do
-  gem "foob"
+  gem "foob", "< 2.0.0"
   gem "foobara-rubocop-rules"
   gem "guard-rspec"
   gem "rubocop-rake"

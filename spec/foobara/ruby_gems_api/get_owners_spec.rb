@@ -9,7 +9,7 @@ RSpec.describe Foobara::RubyGemsApi::GetOwners do
     { gem_name: "foobara" }
   end
 
-  it "is successful",  vcr: { record: :once } do
+  it "is successful", vcr: { record: :none } do
     expect(outcome).to be_success
     expect(result).to be_an(Array)
     expect(result.map(&:handle)).to include("azimux")

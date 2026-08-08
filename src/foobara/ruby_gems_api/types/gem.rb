@@ -8,6 +8,7 @@ module Foobara
           rubygems_mfa_required :boolean
           changelog_uri :string, :allow_nil
           source_code_uri :string, :allow_nil
+          allowed_push_host :string, :allow_nil
         end
         homepage_uri :string, :allow_nil
         funding_uri :string, :allow_nil
