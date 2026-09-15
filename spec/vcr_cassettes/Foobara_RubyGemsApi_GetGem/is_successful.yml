@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/foobara.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1353'
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Cross-Origin-Opener-Policy:
+      - same-origin
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=60, public
+      X-Request-Id:
+      - 4225e0a9-a6a3-4ce1-83c2-07ab0ceb0cef
+      X-Runtime:
+      - '0.016514'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Backend:
+      - F_Rails 54.218.128.248:443
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '1969'
+      Date:
+      - Tue, 15 Sep 2026 19:33:56 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-eze2230023-EZE
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1789500837.855780,VS0,VE1
+      Vary:
+      - Accept-Encoding
+      Server:
+      - RubyGems.org
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":"foobara","downloads":92084,"version":"0.6.3","version_created_at":"2026-09-12T00:32:34.505Z","version_downloads":551,"platform":"ruby","ruby_abi":null,"authors":"Miles
+        Georgi","info":"A command-centric and discoverable software framework with
+        a focus on domain concepts and abstracting away integration code","licenses":["MPL-2.0"],"metadata":{"homepage_uri":"https://foobara.org","changelog_uri":"https://github.com/foobara/foobara/blob/main/CHANGELOG.md","source_code_uri":"https://github.com/foobara/foobara","rubygems_mfa_required":"true"},"yanked":false,"sha":"76ab29d0c170999c676c165e10535a8e5946355ca9e2c2090caab28e3f0f7c20","spec_sha":"062ac237262336602b173b9be856111c8ba8f523d10d883396e5957c10587ceb","project_uri":"https://rubygems.org/gems/foobara","gem_uri":"https://rubygems.org/gems/foobara-0.6.3.gem","homepage_uri":"https://foobara.org","wiki_uri":null,"documentation_uri":null,"mailing_list_uri":null,"source_code_uri":"https://github.com/foobara/foobara","bug_tracker_uri":null,"changelog_uri":"https://github.com/foobara/foobara/blob/main/CHANGELOG.md","funding_uri":null,"dependencies":{"development":[],"runtime":[{"name":"bigdecimal","requirements":">=
+        0"},{"name":"foobara-lru-cache","requirements":"< 2.0.0"},{"name":"foobara-util","requirements":"<
+        2.0.0"},{"name":"inheritable-thread-vars","requirements":"< 2.0.0"}]}}'
+  recorded_at: Tue, 15 Sep 2026 19:33:56 GMT
+recorded_with: VCR 6.4.0

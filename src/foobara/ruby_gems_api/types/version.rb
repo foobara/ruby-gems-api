@@ -23,6 +23,8 @@ module Foobara
         requirements [:string]
         sha :string, :required
         spec_sha :string, :required
+        # This attribute is not documented so not sure of its type
+        ruby_abi :duck
       end
     end
   end
