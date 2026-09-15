@@ -1,3 +1,12 @@
+## [0.1.1] - 2026-09-15
+
+- Add GetGem command
+- Make sure new attributes don't break things
+
+## [0.1.0] - 2026-08-07
+
+- Support metadata[:allow_push_host], User#email, and User#role
+
 ## [0.0.3] - 2025-03-20
 
 - Bump Ruby and gems and deal with breakages/deprecations

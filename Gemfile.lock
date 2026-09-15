@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    foobara-ruby-gems-api (0.1.0)
+    foobara-ruby-gems-api (0.1.1)
       foobara (< 2.0.0)
       foobara-http-api-command (< 2.0.0)
 
@@ -338,7 +338,7 @@ CHECKSUMS
   foobara-resque-connector-generator (0.0.2) sha256=bfd4666569ff3250a04da6a619fc1f158f8d3b73fd1587affbaf0df925fee7be
   foobara-resque-scheduler-connector-generator (0.0.2) sha256=a7c6251f3c5d618374d296a8ef499dec4a4485cc43337c52c08a515a56d8925c
   foobara-rubocop-rules (1.1.1) sha256=af7000f0c1dbf9a97dde78207c04a2a2b1b11726e616fe88ad223302e47b7b8f
-  foobara-ruby-gems-api (0.1.0)
+  foobara-ruby-gems-api (0.1.1)
   foobara-sh-cli-connector (1.1.4) sha256=ecd668b9a9b546e40133afc919f8a56fa2e5ac9a2905c6fd11dbba53bed824d3
   foobara-sh-cli-connector-generator (0.1.0) sha256=b1d77408c6e6c56492a15a2eeb545ca096182222219d1581b49c136bf146c148
   foobara-spec-helpers (0.1.0) sha256=ba9f7e635046f28e3789c3adcd5272d1372d14d80bd126f91b4d313d784c5b8a
