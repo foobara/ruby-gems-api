@@ -17,6 +17,13 @@ module Foobara
       def build_request_body
         self.request_body = { query: }
       end
+
+      # Comment out this three lines when testing new models or looking for new attributes
+      def build_result
+        response_body.map do |gem_attributes|
+          Gem.new(gem_attributes, ignore_unexpected_attributes: true)
+        end
+      end
     end
   end
 end
