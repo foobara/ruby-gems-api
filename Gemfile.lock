@@ -280,7 +280,6 @@ DEPENDENCIES
   foobara-dotenv-loader (< 2.0.0)
   foobara-rubocop-rules
   foobara-ruby-gems-api!
-  foobara-sh-cli-connector
   foobara-spec-helpers (< 2.0.0)
   guard-rspec
   irb
