@@ -1,3 +1,7 @@
+## [0.1.2] - 2026-10-22
+
+- Fix bug caused by older versions of gems not having a ruby_version attribute
+
 ## [0.1.1] - 2026-09-15
 
 - Add GetGem command

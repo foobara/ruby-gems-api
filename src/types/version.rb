@@ -17,7 +17,7 @@ module Foobara
         summary :string
         platform :string
         rubygems_version :string
-        ruby_version :string
+        ruby_version :string, :allow_nil
         prerelease :boolean
         licenses [:string]
         requirements [:string]

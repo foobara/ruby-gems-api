@@ -53,19 +53,19 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Age:
-      - '0'
+      - '1087'
       Date:
-      - Thu, 22 Oct 2026 17:49:36 GMT
+      - Thu, 22 Oct 2026 18:07:43 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-pao-kpao1770032-PAO
+      - cache-pao-kpao1770036-PAO
       X-Cache:
-      - MISS
+      - HIT
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1792691376.047984,VS0,VE166
+      - S1792692463.401978,VS0,VE3
       Vary:
       - Accept-Encoding
       Etag:
@@ -1226,5 +1226,5 @@ http_interactions:
         command pattern for encapsulating and managing domain complexity as well as
         many supporting libraries including entities.","platform":"ruby","rubygems_version":">=
         0","ruby_version":">= 3.2.2","prerelease":false,"ruby_abi":null,"licenses":["AGPL-3.0"],"requirements":[],"sha":"7c1bdcfdef5452f3df4ab485685766d5c4a11e6a32af08f321f4077fdc534a57","spec_sha":"8a76f3eb50841a24db2343b94fa8990f88a762867a0b5711a98bd041535deae0"}]'
-  recorded_at: Thu, 22 Oct 2026 17:49:36 GMT
+  recorded_at: Thu, 22 Oct 2026 18:07:43 GMT
 recorded_with: VCR 6.4.0

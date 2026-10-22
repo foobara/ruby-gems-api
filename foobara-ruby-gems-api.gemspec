@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
     "CHANGELOG.md"
   ]
 
-  spec.add_dependency "foobara", "< 2.0.0"
+  spec.add_dependency "foobara", ">= 0.7.5", "< 2.0.0"
   spec.add_dependency "foobara-http-api-command", "< 2.0.0"
 
   spec.require_paths = ["lib"]
